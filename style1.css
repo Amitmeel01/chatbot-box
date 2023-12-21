@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background: pink;
+}
+
+.chatbot {
+    width: 80%;
+    max-width: 350px;
+    height: 400px;
+    border: 1px solid white;
+    margin: 100px auto 20px;
+    padding: 50px 50px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.chatbot header {
+    text-align: center;
+    position: relative;
+    top: -52px;
+    left: -51px;
+    height: 50px;
+    width: 141%;
+    background: rgba(0, 0, 255, 0.67);
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+
+header h2 {
+    color: white;
+    position: relative;
+    top: 10px;
+}
+
+footer {
+    position: relative;
+    top: 150px;
+    width: 348px;
+    left: -50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.047);
+}
+
+footer input {
+    width: calc(100% - 30px);
+    height: 37px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.613);
+    font-size: 16px;
+}
+
+footer span {
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    cursor: pointer;
+    opacity: 0;
+}
+
+footer input:valid~span {
+    opacity: 1;
+}
+
+.mid {
+    position: relative;
+    top: -30px;
+}
+
+.incoming span {
+    position: absolute;
+    left: -45px;
+    background: rgba(0, 0, 255, 0.67);
+    padding: 5px;
+    border-top-left-radius: 10px;
+}
+
+.incoming {
+    background: transparent;
+}
+
+.incoming p {
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    position: relative;
+    top: -40px;
+    left: -15px;
+    height: auto;
+    max-width: 220px;
+    padding: 10px;
+    text-align: start;
+}
+
+.outgoing {
+    list-style-type: none;
+    background: rgba(76, 76, 138, 0.67);
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    position: relative;
+    top: -30px;
+    left: 75px;
+    height: auto;
+    max-width: 220px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outgoing p {
+    background: transparent;
+}

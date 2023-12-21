@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: sans-serif;
+    background: rgba(0, 0, 0, 0.649);
+}
+.chatbot{
+    width: 100%;
+    max-width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    margin: 100px auto 20px;
+    padding: 50px 50px;
+    background: white;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    background-size:cover;
+   
+}
+.chatbot header{
+    text-align: center;
+    position: relative;
+    top: -52px;
+    left: -51px;
+    height: 50px;
+    width: 141%;
+    background: rgba(0, 0, 255, 0.67);
+    border-top-right-radius: 16px;
+    border-top-left-radius: 16px;
+}
+header h2{
+    background: transparent;
+    color: white;
+    position: relative;
+    top: 6px;
+    
+}
+footer{
+    background: transparent;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    width: 348px;
+    left: -50px;
+    border-top: 1px solid rgba(0, 0, 0, 0.203);
+}
+footer input{
+    background: transparent;
+    position: absolute;
+
+     top: 10px; 
+    width: 100%;
+    height:37px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    outline: none;
+    left: 30px;
+
+
+}
+::placeholder{
+    color:  rgba(0, 0, 0, 0.613);
+    position: relative;
+    left: 0px;
+    top: 0px;
+    max-height: 40px;
+    font-size: 16px;
+    overflow: auto;
+
+    
+}
+footer span{
+    position: absolute;
+    left: 315px;
+    top: 15px;
+    background: transparent;
+    cursor: pointer;
+    opacity: 0;
+}
+footer :valid~span{
+    opacity: 1;
+}
+
+.mid {
+    background: transparent;
+    position: relative;
+    top: -51px;
+    left: -51px;
+    background: transparent;
+    height: 300px;
+    width: 100%;
+    overflow: auto;
+    width: 141%;
+    overflow-x: hidden;
+}
+.incoming span{
+    position: relative;
+    top: 45px;
+    left: 5px;
+    background:  rgba(0, 0, 255, 0.67);
+  
+
+}
+.incoming {
+    background: transparent;
+    list-style-type: none;
+     float:left;
+    clear: right;
+
+    /**/
+    margin: 5px 0;
+    
+    
+    
+    
+}
+.incoming p{
+   background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.292);
+    position: relative;
+    /* top: -40px; */
+    /* left: -15px; */
+    /* height: 50px; */
+    /* width: 220px; */
+    text-align: start ;
+    border-radius: 10px; 
+    padding: 6px;
+    margin: 5px 35px;
+    white-space: pre-wrap;
+    
+    
+
+}
+
+.outgoing {
+     list-style-type: none;
+    background:  rgba(0, 0, 255, 0.67);
+   /* border: 1px solid rgba(0, 0, 0, 0.292);
+    position: ;
+    margin: 10px 0;
+    top: 40px;
+    height: 30px;
+    width: 40%px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-top: 0px;
+    border-radius: 5px; */
+    
+    float:right;
+    clear: both;
+    margin: 5px 20px;
+    padding:  6px;
+    border-radius: 8px;
+   
+    
+}
+.outgoing p{
+    background: transparent;
+    padding-top:5px ;
+    margin: 5px 0px;
+    white-space: pre-wrap;
+  
+    
+    }
+
+    
